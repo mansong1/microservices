@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY ./requirements.txt /usr/src/app/requirements.txt
 
 # install requirements
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # copy application
 COPY . /usr/src/app
