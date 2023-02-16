@@ -2,3 +2,4 @@ Flask==0.12.1
 Flask-Script==2.0.5
 Flask-SQLAlchemy==2.2
 psycopg2==2.7.1
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
